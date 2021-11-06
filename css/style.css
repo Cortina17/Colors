@@ -1,0 +1,40 @@
+@import url(bg-colors.css);
+@import url(letter-colors.css);
+
+body {
+    background-image: url(/assets/wood.jpg);
+    width: 100%;
+}
+
+main {
+    margin: 0 auto;
+    width: 50%;
+    
+}
+
+.background-colors{
+    width: 62.6vw;
+}
+
+div.colors{
+    width: 62.4vw;
+    height: 5.2vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+div {
+    width: 10.4vw;
+    height: 5.2vw;
+  
+ }
+
+#green{
+    width: 31.2vw;
+    height: 5.2vw;
+}
+
+ h2{
+     text-align: center;
+     font-weight: bold;
+ }

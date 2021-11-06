@@ -1,0 +1,79 @@
+div {
+    width: 3.1px;
+    height: 1.5vw;
+}
+
+section.background-colors {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.colors {
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+}
+
+#black1 {
+    background-color: black;
+}
+
+#black2 {
+    background-color: black;
+}
+
+#teal {
+    background-color: teal;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#navy {
+    background-color: navy;
+}
+
+#lime {
+    background-color: lime;
+}
+
+#white {
+    background-color: white;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#olive1 {
+    background-color: olive;
+}
+
+#olive2 {
+    background-color: olive;
+}
+
+#red1 {
+    background-color: red;
+}
+
+#red2 {
+    background-color: red;
+}
+
+#gray {
+    background-color: gray;
+}
+
+#fuchsia {
+    background-color: fuchsia;
+}
+
+#green {
+    background-color: green;
+}

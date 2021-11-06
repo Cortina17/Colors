@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="/assets/RGB.png">
+</head>
+
+<body>
+    <main>
+      <section>
+          <h2>Colores de fondo</h2>
+      
+            <section class="background-colors">
+                <div class="colors">Colores</div>
+                <div class="bgcolor" id="black1">black</div>
+                <div class="bgcolor" id="teal">teal</div>
+                <div class="bgcolor" id="blue">blue</div>
+                <div class="bgcolor" id="navy">navy</div>
+                <div class="bgcolor" id="lime">lime</div>
+                <div class="bgcolor" id="white">white</div>
+                <div class="bgcolor" id="purple">purple</div>
+                <div class="bgcolor" id="yellow">yellow</div>
+                <div class="bgcolor" id="olive1">olive</div>
+                <div class="bgcolor" id="red1">red</div>
+                <div class="bgcolor" id="black2">black</div>
+                <div class="bgcolor" id="gray">gray</div>
+                <div class="bgcolor" id="olive2">olive</div>
+                <div class="bgcolor" id="red2">red</div>
+                <div class="bgcolor" id="fuchsia">fuchsia</div>
+                <div class="bgcolor" id="green">green</div>    
+
+            </section>
+
+            <form action="show">
+                <input type="button" value="Mostrar" onclick="showAll()">
+            </form>
+
+            <h2>Colores de letra<h2>
+            <section class="letter-colors">
+                <p><span class="ltcolor" id="wblack">black </span><span class="ltcolor" id="wteal">teal </span><span class="ltcolor" id="wblue">blue </span><span class="ltcolor" id="wnavy">navy </span><span class="ltcolor" id="wlime">lime </span><span class="ltcolor" id="wwhite">white </span><span class="ltcolor" id="wpurple">purple </span><span class="ltcolor" id="wyellow">yellow </span><span class="ltcolor" id="wolive">olive </span> <span class="ltcolor" id="wred">red </span> <span class="ltcolor" id="wmarron">marron </span><span class="ltcolor" id="wgray">gray </span><span class="ltcolor" id="wfuchsia">fuchsia </span><span class="ltcolor" id="waqua">aqua </span><span class="ltcolor" id="wsilver">silver</span></p>
+            </section>
+
+            <form action="delete">
+                <input type="button" value="Borrar" onclick="removeWord(); showWord()">
+            </form>
+        </section>
+    </main>
+    <script src="scripts/bg_colors.js"></script>
+    <script src="scripts/letter_colors.js"></script>
+</body>
+</html>
